@@ -68,9 +68,6 @@ h1:before, h1:after {
     }
 
 }
-
-
-
 footer
 {
     position: absolute;
@@ -81,4 +78,23 @@ footer p
     color: orangered;
     padding: 0;
 }
-
+/* adminPicture by Math*/
+.addPicture
+{
+    color: orangered;
+}
+.card_galery
+{
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+}
+.showPictureAlone
+{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.pictureAdmin
+{
+    height: 40vh;
+}
