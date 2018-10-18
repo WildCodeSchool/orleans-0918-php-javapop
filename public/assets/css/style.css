@@ -15,10 +15,7 @@ body
     background: url('../images/img-bg/grey.jpg') ;
 
 }
-.pageStandard header
-{
-    background: url("../images/img-bg/evenements2.jpeg") no-repeat;
-}
+
 .bodycontainer
 {
     padding: 0;
@@ -49,6 +46,11 @@ h1:before, h1:after {
     height: 40vh;
     background-image: url("../images/img-bg/evenements.jpeg");
 }
+.banner3
+{
+    height: 40vh;
+    background-image: url("../images/img-bg/carteboissons-bg.jpg");
+}
 
 
 .information
@@ -56,6 +58,16 @@ h1:before, h1:after {
     padding-top: 4vh;
 }
 
+.panel-right{
+    text-align: left;
+    margin-left: 62%;
+}
+@media (max-width: 768px) {
+    .panel-right{
+        margin-left:15vw;
+    }
+
+}
 footer
 {
     position: absolute;
@@ -66,7 +78,6 @@ footer p
     color: orangered;
     padding: 0;
 }
-
 /* adminPicture by Math*/
 .addPicture
 {
