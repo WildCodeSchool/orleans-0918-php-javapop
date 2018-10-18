@@ -54,5 +54,4 @@ class Picture
     /**
      * @return int
      */
-
 }
