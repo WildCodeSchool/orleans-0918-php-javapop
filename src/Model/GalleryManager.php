@@ -26,10 +26,4 @@ class GalleryManager extends AbstractManager
     {
         parent::__construct(self::TABLE, $pdo);
     }
-
-
-    /**
-     * @param Picture $picture
-     * @return int
-     */
 }

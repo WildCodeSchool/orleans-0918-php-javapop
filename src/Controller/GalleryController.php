@@ -18,11 +18,7 @@ use Model\GalleryManager;
  */
 class GalleryController extends AbstractController
 {
-
-
     /**
-     * Display picture listing
-     *
      * @return string
      * @throws \Twig_Error_Loader
      * @throws \Twig_Error_Runtime

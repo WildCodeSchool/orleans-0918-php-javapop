@@ -15,8 +15,14 @@ namespace Model;
  */
 class Picture
 {
+    /**
+     * @var
+     */
     private $id;
 
+    /**
+     * @var
+     */
     private $imgName;
 
     /**
@@ -50,8 +56,4 @@ class Picture
     {
         $this->imgName = $imgName;
     }
-
-    /**
-     * @return int
-     */
 }
