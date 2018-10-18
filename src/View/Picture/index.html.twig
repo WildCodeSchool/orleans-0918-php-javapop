@@ -1,0 +1,28 @@
+{% extends 'layout.html.twig' %}
+{% block banner %} banner1 {% endblock %}
+{% block title %}Admin{% endblock %}
+{% block titre_de_page %}Photos Admin{% endblock %}
+{% block content %}
+    <div class="row offset-1">
+    <a href="/galery/add">Ajouter une image</a>
+    </div>
+    <ul>
+        <div class="row card_galery">
+        {% for picture in pictures %}
+
+        <div class="col-lg-3 col-xs-12">
+        <a href="/galery/{{ picture.id }}"><img class="card-img-top pb-3  pictureAdmin" src="../assets/images/galerie/{{ picture.imgName }}" alt="images des evenements de la javapop"/></a>
+        </div>
+
+        {% else %}
+            <li class="addPicture">Nothing to display</li>
+        {% endfor %}
+
+        </div>
+    </ul>
+
+
+
+
+
+{% endblock %}
