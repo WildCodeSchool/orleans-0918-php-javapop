@@ -12,7 +12,7 @@ namespace Model;
 /**
  *
  */
-class GaleryManager extends AbstractManager
+class GalleryManager extends AbstractManager
 {
     /**
      *

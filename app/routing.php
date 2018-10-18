@@ -17,7 +17,7 @@ $routes = [
         ['show', '/item/{id:\d+}', 'GET'], // action, url, method
         ['delete', '/item/delete/{id:\d+}', 'GET'], // action, url, method
     ],
-    'Galery' => [
-        ['index', '/galery', 'GET'],
+    'Gallery' => [
+        ['index', '/gallery', 'GET'],
     ],
 ];
