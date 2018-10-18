@@ -9,7 +9,7 @@
 
 namespace Controller;
 
-use Model\Picture;
+use Model\Gallery;
 use Model\GalleryManager;
 
 /**
@@ -29,6 +29,6 @@ class GalleryController extends AbstractController
         $pictureManager = new GalleryManager($this->getPdo());
         $pictures = $pictureManager->selectAll('id', 'DESC');
 
-        return $this->twig->render('Picture/gallery.html.twig', ['pictures' => $pictures]);
+        return $this->twig->render('Gallery/gallery.html.twig', ['pictures' => $pictures]);
     }
 }

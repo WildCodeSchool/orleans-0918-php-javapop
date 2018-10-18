@@ -10,10 +10,10 @@
 namespace Model;
 
 /**
- * Class Picture
+ * Class Gallery
  *
  */
-class Picture
+class Gallery
 {
     /**
      * @var
