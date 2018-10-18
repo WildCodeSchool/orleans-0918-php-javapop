@@ -10,10 +10,10 @@
 namespace Model;
 
 /**
- * Class Item
+ * Class Picture
  *
  */
-class Item
+class Picture
 {
     /**
      * @var
@@ -23,45 +23,37 @@ class Item
     /**
      * @var
      */
-    private $title;
+    private $imgName;
 
     /**
-     * @return int
+     * @return mixed
      */
-    public function getId(): int
+    public function getId()
     {
         return $this->id;
     }
 
     /**
      * @param mixed $id
-     *
-     * @return Item
      */
-    public function setId($id): Item
+    public function setId($id)
     {
         $this->id = $id;
-
-        return $this;
     }
 
     /**
      * @return mixed
      */
-    public function getTitle(): string
+    public function getImgName()
     {
-        return $this->title;
+        return $this->imgName;
     }
 
     /**
-     * @param mixed $title
-     *
-     * @return Item
+     * @param mixed $imgName
      */
-    public function setTitle($title):Item
+    public function setImgName($imgName)
     {
-        $this->title = $title;
-
-        return $this;
+        $this->imgName = $imgName;
     }
 }

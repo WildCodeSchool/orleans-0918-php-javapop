@@ -1,6 +1,6 @@
-
 /temp/*
 *.cache
 app/db.php
 /.idea/
 /vendor/
+public/assets/images/galerie/

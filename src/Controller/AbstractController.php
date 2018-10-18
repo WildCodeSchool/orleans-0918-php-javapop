@@ -30,7 +30,7 @@ abstract class AbstractController
     protected $pdo;
 
     /**
-     *  Initializes this class.
+     * AbstractController constructor.
      */
     public function __construct()
     {
