@@ -15,14 +15,8 @@ namespace Model;
  */
 class Item
 {
-    /**
-     * @var
-     */
     private $id;
 
-    /**
-     * @var
-     */
     private $title;
 
     /**
