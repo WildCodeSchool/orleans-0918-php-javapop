@@ -53,7 +53,6 @@ abstract class AbstractManager
             $query .= ' ORDER BY ' . $field . ' ' . $order;
         }
         return $this->pdo->query($query, \PDO::FETCH_CLASS, $this->className)->fetchAll();
-
     }
 
     /**
