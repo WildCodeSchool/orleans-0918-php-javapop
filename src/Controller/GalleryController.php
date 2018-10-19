@@ -26,9 +26,9 @@ class GalleryController extends AbstractController
      */
     public function index()
     {
-        $pictureManager = new GalleryManager($this->getPdo());
-        $pictures = $pictureManager->selectAll('id', 'DESC');
+        $galleryManager = new GalleryManager($this->getPdo());
+        $gallerys = $galleryManager->selectAll('id', 'DESC');
 
-        return $this->twig->render('Gallery/gallery.html.twig', ['pictures' => $pictures]);
+        return $this->twig->render('Gallery/gallery.html.twig', ['gallerys' => $gallerys]);
     }
 }
