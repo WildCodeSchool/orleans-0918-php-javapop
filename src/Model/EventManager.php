@@ -65,7 +65,6 @@ class EventManager extends AbstractManager
             }
             $events[]=$event;
         }
-        return $events;
     }
 
     /**
@@ -82,8 +81,9 @@ class EventManager extends AbstractManager
         $statement->bindValue('comment', $event->getComment(), \PDO::PARAM_STR);
 
         if ($statement->execute()) {
-            return $this->pdo->lastInsertId();
+             $event = $this->pdo->lastInsertId();
         }
+        return $event;
     }
 
     /**
